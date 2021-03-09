@@ -41,3 +41,22 @@ section.container.index footer{
     letter-spacing: .5vw;
     font-family: 'Lato', sans-serif;
 }
+
+
+/*MARS*/
+input, textarea{
+    text-shadow: none;
+    color:black;
+    font-family: 'Lato';
+    letter-spacing: normal;
+    font-size: .8vw;
+}
+h5, input{
+    float:left;
+    letter-spacing: normal;
+    font-size: 1vw;
+}
+
+textarea{
+    resize:none;
+}

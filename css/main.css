@@ -45,7 +45,6 @@ header ul li:hover .fa{
 }
 
 /*FOOTER*/
-
 footer i, footer a{
     transition:0.3s;
 }
@@ -62,28 +61,92 @@ footer i:hover, footer a:hover{
     height: 100px;
 }
 
-
-/*GALLERY*/
-#image1:checked ~ .image{
-    display:block;
-    background-image: url(../images/1.jpg);
-}
-#image2:checked ~ .image{
-    display:block;
-    background-image: url(../images/2.jpg);
-}
-#image3:checked ~ .image{
-    display:block;
-    background-image: url(../images/3.jpg);
-}
-#image4:checked ~ .image{
-    display:block;
-    background-image: url(../images/4.jpg);
+section.content.index article.mini{
+    display: inline-block;
+    width:25%;
+    height: 10%;
 }
 
+
+/*EARTH GALLERY*/
+footer.fullsize h2{
+    margin-top: 90%;
+}
+footer.fullsize{
+    display: block;
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+section.content.index article.mini#image1:hover ~ footer.fullsize{
+    display: block;
+    background-image: url(../images/earth/Alberta_Canada.jpg);
+}
+section.content.index article.mini#image2:hover ~ footer.fullsize{
+    display: block;
+    background-image: url(../images/earth/Aral_Sea.jpg);
+}
+section.content.index article.mini#image3:hover ~ footer.fullsize{
+    display: block;
+    background-image: url(../images/earth/Brussels.jpg);
+}
+section.content.index article.mini#image4:hover ~ footer.fullsize{
+    display: block;
+    background-image: url(../images/earth/Cambodian_rivers.jpg);
+}
+section.content.index article.mini#image5:hover ~ footer.fullsize{
+    display: block;
+    background-image: url(../images/earth/Caspian_Sea.jpg);
+}
+section.content.index article.mini#image6:hover ~ footer.fullsize{
+    display: block;
+    background-image: url(../images/earth/Corsica.jpg);
+}
+section.content.index article.mini#image7:hover ~ footer.fullsize{
+    display: block;
+    background-image: url(../images/earth/Egmont_National_Park_New_Zealand_highlight_std.jpg);
+}
+section.content.index article.mini#image8:hover ~ footer.fullsize{
+    display: block;
+    background-image: url(../images/earth/Lake_Gairdner_highlight_std.jpg);
+}
+section.content.index article.mini#image9:hover ~ footer.fullsize{
+    display: block;
+    background-image: url(../images/earth/Lisbon_Portugal_highlight_std.jpg);
+}
+section.content.index article.mini#image10:hover ~ footer.fullsize{
+    display: block;
+    background-image: url(../images/earth/Westfjords_peninsula_Iceland_highlight_std.jpg);
+}
+
+section.content.index article.mini#image11:hover ~ footer.fullsize{
+    display: block;
+    background-image: url(../images/earth/Quelccaya_ice_cap_Peru.jpg);
+}
+section.content.index article.mini#image12:hover ~ footer.fullsize{
+    display: block;
+    background-image: url(../images/earth/Richat_structure_Mauritania_highlight_std.jpg);
+}
+section.content.index article.mini#image13:hover ~ footer.fullsize{
+    display: block;
+    background-image: url(../images/earth/Sahara_desert_Algeria_highlight_std.jpg);
+}
+section.content.index article.mini#image14:hover ~ footer.fullsize{
+    display: block;
+    background-image: url(../images/earth/Salt_marsh_Kazakhstan.jpg);
+}
+section.content.index article.mini#image15:hover ~ footer.fullsize{
+    display: block;
+    background-image: url(../images/earth/South_Georgia_Island.jpg);
+}
 /*VENUS*/
-
 section.container.index article:hover ~footer{ 
     font-size: 1vw;
     background-color: black;
+}
+
+/*MARS*/
+
+section.content.index{
+    width: 10vw;
 }

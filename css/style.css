@@ -60,7 +60,6 @@ section.main > section{
 }
 
 
-
 section.container.index img{
     position:absolute;
     object-fit: fill;
@@ -271,13 +270,54 @@ i{
 
 /*EARTH GALLERY*/
 
-.content.index.gallery{
+section.content.index.gallery{
+    margin-top: 5vw;
     position:relative;
-    width:50%;
+    width:40%;
+    height: 40vw;
 }
 
+.content.index.gallery article img{
+    display:block;
+
+}
+article.mini{
+    position:relative;
+    display: inline-block;
+    width:10vw;
+}
+article.mini{
+    margin-top: 2vw;
+}
+article.mini img{
+    width:100%;
+}
+.fullsize{
+    position:absolute;
+    top:5vw;
+    right:-50vw;
+    width: 40vw;
+    height: 25vw;
+}
 .content.index.gallery .container.gallery footer{
     position:absolute;
-    width: 50%;
+    width: 50vw;
     overflow: visible;
+}
+
+/*FORM*/
+
+section.content.index.formr{
+    width:100vw;
+    height: 50vw;
+}
+
+h5{
+    font-family: ;
+    font-size: 5px;
+}
+
+textarea{
+    width:50%;
+    float:left;
 }

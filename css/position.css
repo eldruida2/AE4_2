@@ -76,6 +76,9 @@ footer.main{
     right:0;
 }
 
+header nav input{
+    display: none;
+}
 ul{
     position: relative;
     text-align: center;
@@ -88,7 +91,6 @@ ul li{
     vertical-align: middle;
     width: 20vw;
     height: 6vw;
-   // border: .2vw solid red;
 
 }
 
@@ -107,9 +109,6 @@ nav label{
     cursor: pointer;
 }
 
-input{
-    display:none;
-}
 
 .geometry#earth, .geometry#mars{
     position: absolute;
