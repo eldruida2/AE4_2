@@ -1,0 +1,48 @@
+/*  -------- RWD --------- */
+
+header, header h1{
+    transition:height 1s;
+}
+header h1{
+    transition: margin-top 1s;
+    transition-delay: 0.5s;
+}
+
+
+/* Para tablets pequeñas y smartphones*/
+@media screen and (max-width: 700px) and (min-width: 300px) {
+
+header{
+    width: 100vw;
+    height: 40vw;
+}
+nav{
+    overflow:visible
+}
+ul{
+    display:none;
+    background-color: aliceblue;
+}
+aside.burguer{
+    width:100vw;
+    height: 10vw;
+
+}
+
+aside div{
+    float:left;
+    margin-top:1vw;
+    margin-left: 2vw;
+
+}
+
+
+header aside div{
+    margin-left: 15vw;
+    border: .2vw solid rgba(0, 0, 0, 0.479);
+}
+
+header h1{
+    margin-top: 10vw;
+}
+}

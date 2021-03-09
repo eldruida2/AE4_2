@@ -6,7 +6,6 @@ section.main{
 header{
     width: 100vw;
     height: 10vw;
-    border: 1px solid black;
     background-size: cover;
     text-align: center;
     letter-spacing: 20px;

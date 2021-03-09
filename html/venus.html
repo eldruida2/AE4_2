@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="../css/fontstyle.css"/>
     <link rel="stylesheet" href="../css/gradients.css"/>
     <link rel="stylesheet" href="../css/geometry.css"/>
+    <link rel="stylesheet" href="../css/responsive.css"/>
 </head>
 
 <!--
@@ -38,7 +39,7 @@
 <body>
 
 <header class="main">
-    <h1><a href='../index.html'>SPACESHEET</a></h1>
+    <h1 id='spacesheet'><a href='index.html'>SPACESHEET</a></h1>
     <nav>
         <ul>
             <li>
@@ -53,13 +54,20 @@
                 <input type="radio" id="earth" name="menu" form="nav">
                 <label for=desplegable><a href='earth.html'>Earth<i class="fa fa-globe" aria-hidden="true"></i></a></label>              
             </li>
-                
 
             <li>
                 <input type="radio" id="mars" name="menu" form="nav">
                 <label for=desplegable><a href='mars.html'>Mars<i class="fa fa-space-shuttle" aria-hidden="true"></i></a></label>              
             </li>
         </ul>
+        <aside class='burguer' id='burguerli'>          
+            <div id='mars'><a href='mars.html'><i class="fa fa-signal" aria-hidden="true"></i></a></div>
+            <div id='earth'><a href='sun.html'><i class="fa fa-signal" aria-hidden="true"></i></a></div>
+            <div id='earth'><a href='venus.html'><i class="fa fa-signal" aria-hidden="true"></i></a></div>
+            <div id='earth'><a href='earth.html'><i class="fa fa-signal" aria-hidden="true"></i></a></div>
+            
+        <aside>
+
     </nav>
 </header>
 
