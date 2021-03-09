@@ -1,0 +1,48 @@
+@keyframes gradiente{
+    0%{background-position: center;}
+    50%{background-position: top;}
+    100%{background-position: center;}
+}
+
+@keyframes earth{
+    0%{display: hidden;}
+    100%{display:hidden;}
+}
+
+@keyframes bottom{
+    0%{opacity: 100%;}
+    100%{opacity:30%}
+}
+
+/*MAIN FADEIN*/
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+
+/*SUN GALLERY*/
+
+@keyframes sungallery{
+    0%{
+        opacity: 0%;
+    }
+    
+    48%{
+        opacity:0%;
+    }
+    50%{
+        opacity:100%;
+    }
+    98%{
+        opacity:100%;
+    }
+    100%{
+        opacity:100%;
+    }
+
+}

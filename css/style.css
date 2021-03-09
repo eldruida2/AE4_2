@@ -1,0 +1,283 @@
+section.main{
+    animation-duration: 2s;
+    animation-name: fadein;
+}
+
+header{
+    width: 100vw;
+    height: 10vw;
+    border: 1px solid black;
+    background-size: cover;
+    text-align: center;
+    letter-spacing: 20px;
+    vertical-align: middle;
+}
+header.main{
+    animation-name: gradiente;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+
+footer.main{
+    animation-name: gradiente;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+
+/*NAV*/
+header nav{
+    display:relative;
+    width: 100vw;
+    height: 6vw;
+    bottom:0;
+}
+
+ul li{
+    display: flex;
+    width: 20vw;
+    display: inline-block;
+}
+
+header ul li a{
+    transition: 0.2s;
+    display: block;
+    width: 100%;
+    line-height: 6.1vw;
+    justify-content: center;
+}
+
+header .fa{
+    opacity:0%;
+}
+
+
+/*CONTENT*/
+section.main > section{
+    text-align: center;
+    width: 69vw;
+    height: 100vw;
+    left:30vw;
+}
+
+
+
+section.container.index img{
+    position:absolute;
+    object-fit: fill;
+    width:100%;
+    top:0;
+    left:0;    
+}
+section.container.index img{
+    position:absolute;
+    object-fit: fill;
+    width:100%;
+    top:0;
+    left:0;    
+}
+section.container.index{
+    overflow:hidden;
+}
+section.container.index header{
+    height: 3vw;
+}
+
+section.container.index footer{
+    transition: font-size 1s, background-color 1s;
+    background-color: rgba(255, 255, 255, 0.301);
+}
+
+section.main > section.index{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    left:0vw;
+}
+
+section.content{
+    position:relative;
+    text-align: center;
+    width: 100vw;
+    height: 100vw;
+    left:0vw;
+}
+
+section.container{
+    width:400px;
+    height: 400px;
+    padding-top: 1vw;
+}
+
+section header{
+    width:100%;
+    height: 10%;
+}
+
+section article{
+    width: 100%;
+    height: 80%;
+}
+
+/*INDEX*/
+section.bottom h1{
+    width: 100%;
+    font-size: 150%;
+    opacity:0%;
+    letter-spacing:2vw;
+    
+}
+section.bottom{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow:hidden;
+    width:100vw;
+    height:40vw;
+}
+#b1{
+    background-image: url("../images/index/sun-background-full-hd-1080p-138403.jpg");
+}
+#b2{
+    background-image: url("../images/index/venus180hem_magellan_big.jpg");
+}
+#b3{
+    background-image: url("../images/index/index_background.jpg");
+}
+#b4{
+    background-image: url("../images/index/Jupiter-space_1024x768.jpg");
+}
+
+section footer{
+    width: 100%;
+    height: 10%;
+    
+}
+
+aside.general-info{
+    text-align: center;
+    margin: 2vw 2vw;
+    width: 30vw;
+    height: 100vw;
+    left:0;
+    top:0;
+}
+
+aside.general-info{
+    text-align: center;
+    margin: 2vw 2vw;
+    width: 30vw;
+    height: 100vw;
+    left:0;
+    top:0;
+}
+
+aside p{
+    margin:1vw;
+    border: .1vw solid black;
+    overflow:hidden;
+}
+
+a{
+    text-decoration: none;
+}
+/*FOOTER*/
+.pusher{
+    height: 6vw;
+}
+footer.main{
+    width: 100vw;
+    height: 4vw;
+    border: .1vw solid black;
+}
+
+.info{
+    float:left;
+    margin-left: 2vw;
+    width:50vw;
+    height: 100%;
+}
+.info h2{
+    font-size: 40%;
+    letter-spacing: 1vw;
+    padding: .3vw 0;
+}
+.info a{
+    font-size: 150%;
+}
+i{
+    margin-left: 1vw;
+    font-size: 10%;
+    color:rgb(255, 255, 255);
+}
+
+/*MENU*/
+.desplegable{
+    z-index:0;
+}
+
+#desplegable:checked ~ .desplegable{
+    display:block;
+}
+#inicio:checked + .geometry#moon{
+    display:none;
+}
+.desplegable{
+    display:none;
+}
+
+/*SUN GALLERY*/
+
+.gallery{
+    position: relative;
+    margin-left: 5vw;
+    width:90vw;
+    height:50vw;
+
+}
+
+
+.bottom.sun{
+    position:relative;
+    border: 3px solid white;
+}
+.gallery .image{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:50vw;
+    animation-name: sungallery;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    opacity:100%;
+    object-fit: cover;
+}
+
+#g15{
+    animation-delay: 0s;
+}
+#g14{
+    animation-delay: 4s;
+}
+#g13{
+    animation-delay: 8s;
+}
+#g12{
+    animation-delay: 12s;
+}
+#g11{
+    animation-delay: 16s;
+}
+
+
+/*EARTH GALLERY*/
+
+.content.index.gallery{
+    position:relative;
+    width:50%;
+}
+
+.content.index.gallery .container.gallery footer{
+    position:absolute;
+    width: 50%;
+    overflow: visible;
+}

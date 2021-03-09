@@ -1,0 +1,128 @@
+/*PRINCIPAL*/
+body{
+    position:relative;
+}
+header{
+    position: relative;
+    top:0;
+    overflow: hidden;
+}
+
+header nav{
+    position: absolute;
+}
+
+section{
+    position:relative;
+    display: inline-block;
+}
+/*---"BOTTOM" BACKGROUND INDEX--*/
+
+section.bottom{
+    position:relative;
+    display:block;
+}
+
+section.bottom aside{
+    position:absolute;
+    width: 30%;
+    height: 100%;
+}
+/*-----*/
+aside.general-info{
+    z-index: 100;
+    position: absolute;
+    top:1vw;
+    display: inline-block;
+}
+
+aside.general-info{
+    z-index: 100;
+    position: absolute;
+    top:1vw;
+    display: inline-block;
+}
+section header{
+    position:relative;
+}
+
+section article{
+    position:relative;
+    display: inline-block;
+}
+
+div.pusher{
+    position:relative;
+    margin-top: 1vw;
+}
+section footer{
+    position:absolute;
+    bottom:0;
+}
+
+footer.main{
+    position:absolute;
+    display:block;
+    bottom:0;
+}
+
+/*MENU*/
+.desplegable{
+    position: absolute;
+    display: inline-block;
+    border: .1vw solid black;
+    width: 30vw;
+    //height: 100vw;
+    right:0;
+}
+
+ul{
+    position: relative;
+    text-align: center;
+
+}
+ul li{
+    position:relative;
+    text-transform: uppercase;
+    display: table-cell;
+    vertical-align: middle;
+    width: 20vw;
+    height: 6vw;
+   // border: .2vw solid red;
+
+}
+
+ul li #venus{
+    margin-left: 8vw;
+}
+
+/*-----*/
+.desplegable{
+    position: absolute;
+    /*right:-57.4vw;*/
+    top: 2.9vw;
+}
+
+nav label{  
+    cursor: pointer;
+}
+
+input{
+    display:none;
+}
+
+.geometry#earth, .geometry#mars{
+    position: absolute;
+    left:0;
+    top:0;
+    display: inline-block;
+}
+
+.geometry#earth  #moon{
+    margin-top: 0vw;
+    margin-left: 0vw;
+}
+
+.geometry-label{
+    margin-left: 2vw;;
+}

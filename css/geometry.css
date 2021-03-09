@@ -1,0 +1,27 @@
+#earth{
+    width: 2vw;
+    height: 2vw;
+    background: rgb(97, 179, 211);
+    border-radius: 50%
+}
+
+#mars{
+    width: 2vw;
+    height: 2vw;
+    background: rgb(202, 150, 39);
+    border-radius: 50%
+}
+
+#venus{
+    width:3vw;
+    height: 3vw;
+    background-image: linear-gradient(to top, rgb(70, 48, 107),rgb(176, 176, 255));
+    border-radius: 50%;
+}
+
+#moon{
+    width: 1vw;
+    height: 1vw;
+    background: rgb(0, 0, 0);
+    border-radius: 50%
+}

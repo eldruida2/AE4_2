@@ -1,0 +1,43 @@
+*{
+    color:rgb(190, 190, 190);
+    font-weight: bolder;
+    text-shadow: 1px 2px 2px black;
+    font-size: 2vw;
+    letter-spacing: 3vw;
+    font-weight:bolder
+}
+header nav{
+    font-size: 2vw;
+    letter-spacing: 3vw;
+}
+section aside{
+    padding-top: 15vw;
+    font-size: 1vw;
+    letter-spacing: 1vw;
+}
+/*MIRAR ESTO DEL FLEX*/
+ul li a{
+    display:flex;
+    font-size: 1vw;
+    letter-spacing: 1vw;
+}
+
+ul li
+/*MENU*/
+.geometry-label{
+    font-size: 1vw;
+}
+
+/*VENUS*/
+section.container.index header{
+    height: 3vw;
+    font-size: 1vw;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+section.container.index footer{
+    font-size: .5vw;
+    letter-spacing: .5vw;
+    font-family: 'Lato', sans-serif;
+}

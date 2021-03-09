@@ -1,0 +1,8 @@
+header.main{
+    background: linear-gradient(to top, #eaffff 0%, #6cffff 12%, #39c0c0 15%, #adaaff 17%, hsl(229, 57%, 31%) 20%, #211faa 35%, #bbd3ff 50%, #25247e 60%, #000000 70%) center/200% 200% ;
+
+}
+
+footer.main{
+    background: linear-gradient(to top, #eaffff 0%, #6cffff 12%, #39c0c0 15%, #adaaff 17%, hsl(229, 57%, 31%) 20%, #000000 35%, #000000 70%, #bbd3ff 100%) center/200% 200% ;
+}
